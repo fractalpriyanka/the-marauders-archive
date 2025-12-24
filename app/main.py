@@ -251,7 +251,7 @@ with st.sidebar:
     st.markdown("### ✨ Example Queries")
 
     examples = [
-        "Where does Dumbledore's Army meet?",
+        "What phrase activates the Marauder’s Map?",
         "Recite the Hogwarts school song",
         "Who is the Half-Blood Prince?",
         "Which Horcrux was destroyed first?",
