@@ -6,11 +6,19 @@ The system loads PDFs, chunks and embeds content, indexes it with FAISS, retriev
 
 ---
 
-#### 📸 Demo
+## Demo
 
 ![Demo](app/assets/screenrec.gif)
 
-👉 **Try the app here:**
+### ⚠️ Token Limit (Gemini)
+
+This project uses **Gemini**, which has a limit on the total tokens per request (input + output).  
+Very long queries or large retrieved context may be trimmed, truncated, or rejected — which can occasionally reduce answer quality.
+
+> Keep questions short and avoid pasting long text or full chapters.
+
+
+###👉 **Try the app here:**
 [![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://the-marauders-archive-ggdwufkz7ku8wi8qrulappg.streamlit.app/)
 
 ---
