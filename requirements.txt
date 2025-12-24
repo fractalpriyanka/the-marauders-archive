@@ -1,0 +1,9 @@
+sentence-transformers
+pdfplumber
+faiss-cpu
+numpy
+tqdm
+python-dotenv
+google-genai
+# rank-bm25
+streamlit

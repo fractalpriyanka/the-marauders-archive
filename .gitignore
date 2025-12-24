@@ -1,0 +1,30 @@
+# --- Virtual environments ---
+venv/
+my_venv/
+
+# --- Environment variables ---
+.env
+
+# --- Python cache ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# --- IDE / Editor ---
+.vscode/
+.idea/
+
+# --- OS junk ---
+.DS_Store
+Thumbs.db
+
+# --- Logs ---
+logs/
+*.log
+
+# --- Data (raw + intermediate only) ---
+data/raw/*
+data/processed/pages.json   # <-- regenerate on ingestion
+
+

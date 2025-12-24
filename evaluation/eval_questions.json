@@ -1,0 +1,107 @@
+[
+  {
+    "id": 1,
+    "question": "Where does Dumbledore's Army hold meetings?",
+    "answer": "Room of Requirement",
+    "type": "emergent",
+    "reason": "Requires multi-chunk reasoning"
+  },
+  {
+    "id": 2,
+    "question": "What did Dolores Umbridge force Harry to write during detention?",
+    "answer": "I must not tell lies",
+    "type": "explicit",
+    "reason": "Single sentence fact"
+  },
+  {
+    "id": 3,
+    "question": "What kind of car does Arthur Weasley drive?",
+    "answer": "Ford Anglia",
+    "type": "explicit",
+    "reason": "Direct object reference"
+  },
+  {
+    "id": 4,
+    "question": "How old was Neville when his magic first appeared?",
+    "answer": "Eight",
+    "type": "rare",
+    "reason": "Mentioned only once"
+  },
+  {
+    "id": 5,
+    "question": "Who tells Harry about the Marauder's Map?",
+    "answer": "Fred and George Weasley",
+    "type": "explicit",
+    "reason": "Dialogue-based fact"
+  },
+  {
+    "id": 6,
+    "question": "What phrase activates the Marauder's Map?",
+    "answer": "I solemnly swear that I am up to no good",
+    "type": "explicit",
+    "reason": "Exact phrase retrieval"
+  },
+  {
+    "id": 7,
+    "question": "Where is the entrance to the Chamber of Secrets?",
+    "answer": "Moaning Myrtle's bathroom",
+    "type": "location",
+    "reason": "Location-based retrieval"
+  },
+  {
+    "id": 8,
+    "question": "Who destroys Tom Riddle's diary?",
+    "answer": "Harry Potter",
+    "type": "narrative",
+    "reason": "Action across scene"
+  },
+  {
+    "id": 9,
+    "question": "What is the full name of Professor Dumbledore?",
+    "answer": "Albus Percival Wulfric Brian Dumbledore",
+    "type": "rare",
+    "reason": "Rare full-name mention"
+  },
+  {
+    "id": 10,
+    "question": "What song is sung at Hogwarts at the start of term?",
+    "answer": "Hogwarts school song",
+    "type": "poem",
+    "reason": "Poem / song chunk retrieval"
+  },
+  {
+    "id": 11,
+    "question": "Who gives Harry the Invisibility Cloak?",
+    "answer": "Albus Dumbledore",
+    "type": "explicit",
+    "reason": "Direct gifting fact"
+  },
+  {
+    "id": 12,
+    "question": "Where does Harry first meet Dobby?",
+    "answer": "Privet Drive",
+    "type": "location",
+    "reason": "Early book recall"
+  },
+  {
+    "id": 13,
+    "question": "How many Horcruxes did Voldemort create?",
+    "answer": "Six",
+    "type": "explicit",
+    "reason": "Numerical fact"
+  },
+  {
+    "id": 14,
+    "question": "Who were the creators of the Marauder's Map?",
+    "answer": "Moony, Wormtail, Padfoot, and Prongs",
+    "type": "explicit",
+    "reason": "List-based retrieval"
+  },
+  {
+    "id": 15,
+    "question": "What is the name of Hagrid’s dog?",
+    "answer": "Fang",
+    "type": "explicit",
+    "reason": "Simple entity recall"
+  }
+]
