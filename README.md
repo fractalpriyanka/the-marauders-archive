@@ -65,7 +65,35 @@ rag_storybook/
 
 ```
 
-#### ⚙️ 1️⃣ Installation
+### 🍁 RAG ARCHITECTURE
+
+```text
+PDF
+ │
+ ▼
+Extract Pages  — (pdfplumber + regex)
+ │
+ ▼
+Chunk Pages — (chapter-aware + sliding window)
+ │
+ ▼
+Embeddings — (all-mpnet-base-v2)
+ │
+ ▼
+FAISS Index — (IndexFlatIP, cosine)
+ │
+ ▼
+User Question
+ │
+ ▼
+Retrieve — (FAISS + neighbors + lexical boost)
+ │
+ ▼
+Gemini Answer — (grounded, no hallucinations)
+
+```
+
+### ⚙️ 1️⃣ Installation
 
 **Create and activate a virtual environment:**
 
@@ -76,13 +104,13 @@ rag_storybook/
 
 - pip install -r requirements.txt
 
-#### 🔑 2️⃣ Environment Variables
+### 🔑 2️⃣ Environment Variables
 
 **Create a .env file in the project root:**
 
 - GEMINI_API_KEY=your_key_here
 
-#### 🧾 3️⃣ Pipeline — Step by Step
+### 🧾 3️⃣ Pipeline — Step by Step
 
 **3.1 Load PDF → pages.json**
 
@@ -132,46 +160,22 @@ Retrieval text → LLM prompt → grounded answer.
 
 No hallucinations — answer must come from retrieved context.
 
-#### 🧪 4️⃣ Evaluation
+### 🧪 4️⃣ Evaluation
 
 **Run evaluation:**
 
 - python -m evaluation.evaluate_retrieval
 - Outputs metrics: Recall@K -- Found / Missing questions
 
-#### 🌍 5️⃣ Run the App (Streamlit)
+### 🌍 5️⃣ Run the App (Streamlit)
 
 - streamlit run app/main.py
 
-### ARCHITECTURE
 
-```text
-PDF
- │
- ▼
-Extract Pages  — (pdfplumber + regex)
- │
- ▼
-Chunk Pages — (chapter-aware + sliding window)
- │
- ▼
-Embeddings — (all-mpnet-base-v2)
- │
- ▼
-FAISS Index — (IndexFlatIP, cosine)
- │
- ▼
-User Question
- │
- ▼
-Retrieve — (FAISS + neighbors + lexical boost)
- │
- ▼
-Gemini Answer — (grounded, no hallucinations)
 
-```
+---
 
-## Harry Potter RAG System – Evaluation Report
+## 🐦‍⬛ Harry Potter RAG System – Evaluation Report
 
 ### Project Overview
 
