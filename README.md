@@ -11,7 +11,7 @@ The system loads PDFs, chunks and embeds content, indexes it with FAISS, retriev
 ![Demo](app/assets/screenrec.gif)
 
 👉 **Try the app here:**
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://[your-streamlit-app-link](https://the-marauders-archive-ggdwufkz7ku8wi8qrulappg.streamlit.app/))
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://the-marauders-archive-ggdwufkz7ku8wi8qrulappg.streamlit.app/)
 
 ---
 
