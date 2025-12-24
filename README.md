@@ -232,31 +232,28 @@ The system was tested across multiple question paradigms to reflect real narrati
 | Boundary Case      | 1 / 1           | Proper refusal               |
 ```
 
+
 #### Detailed Analysis
-
 ##### Strengths
-
-✅ Strong performance on explicit facts and object/entity queries
-✅ Successful retrieval of songs and poems
-✅ Low hallucination rate due to strict grounding
-✅ Correct handling of out-of-scope questions
+* ✅ Strong performance on explicit facts and object/entity queries
+* ✅ Successful retrieval of songs and poems
+* ✅ Low hallucination rate due to strict grounding
+* ✅ Correct handling of out-of-scope questions
 
 ##### Weaknesses
-
-❌ Rare facts mentioned only once (e.g., full formal names)
-❌ Emergent facts requiring synthesis across distant chapters
-❌ Location questions with varied phrasing
+* ❌ Rare facts mentioned only once (e.g., full formal names)
+* ❌ Emergent facts requiring synthesis across distant chapters
+* ❌ Location questions with varied phrasing
 
 These failures are expected for narrative RAG systems and do not indicate architectural flaws.
 
 #### Interpretation & Insights
 
 **What This Evaluation Measures**
-
-✅ Retrieval quality (Recall@K)
-✅ Grounded answer generation
-✅ Faithfulness to source material
-✅ Refusal behavior for missing context
+* ✅ Retrieval quality (Recall@K)
+* ✅ Grounded answer generation
+* ✅ Faithfulness to source material
+* ✅ Refusal behavior for missing context
 
 ### Conclusion
 
