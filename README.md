@@ -18,7 +18,7 @@ Very long queries or large retrieved context may be trimmed, truncated, or rejec
 > Keep questions short and avoid pasting long text or full chapters.
 
 
-###👉 **Try the app here:**
+### 👉 **Try the app here:**
 [![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://the-marauders-archive-ggdwufkz7ku8wi8qrulappg.streamlit.app/)
 
 ---
