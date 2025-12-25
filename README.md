@@ -49,27 +49,53 @@ Very long queries or large retrieved context may be trimmed, truncated, or rejec
 rag_storybook/
 │
 ├── app/
-│   └── main.py
+│   ├── assets/
+│   │   ├── theme.mp3
+│   │   ├── magic.mp3
+│   │   ├── hp_background.png
+│   │   └── screenrec.gif
+│   │
+│   └── main.py                  # UI / API (Streamlit)
 │
 ├── src/
 │   ├── ingestion/
+│   │   └── pdf_loader.py        # Load PDF → pages.json
+│   │
 │   ├── chunking/
+│   │   └── chunker.py           # Pages → semantic chunks
+│   │
 │   ├── embeddings/
+│   │   └── embedder.py          # Chunks → vector embeddings (FAISS)
+│   │
 │   ├── retrieval/
+│   │   └── retriever.py         # Query → Top-K + neighbor expansion
+│   │
 │   ├── generation/
+│   │   └── llm.py               # Gemini → grounded answer
+│   │
 │   └── utils/
+│       └── logger.py
+│
+├── evaluation/
+│   └── evaluate_retrieval.py    # Recall@K evaluation
 │
 ├── config/
-│   └── settings.py
+│   └── settings.py              # Paths, models, API keys, constants
 │
 ├── data/
 │   ├── raw/
+│   │   └── harrypotter.pdf
+│   │
 │   └── processed/
+│       ├── pages.json
+│       ├── chunks.json
+│       └── index.faiss
 │
-├── evaluation/
-│
+├── .env                         # GEMINI_API_KEY, paths
 ├── requirements.txt
 └── README.md
+
+
 
 ```
 
