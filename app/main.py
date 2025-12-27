@@ -60,7 +60,7 @@ def play_hidden_music(mp3_file):
         </audio>
         <script>
             const audio = document.getElementById('bg-audio');
-            audio.volume = 0.35;
+            audio.volume = 0.25;
             
             const startAudio = () => {{
                 audio.play().catch(e => console.log("Playback blocked"));
