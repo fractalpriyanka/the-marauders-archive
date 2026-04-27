@@ -291,7 +291,7 @@ These failures are expected for narrative RAG systems and do not indicate archit
 
 ### Conclusion
 
-With a Retrieval Recall@K of 0.73, the Harry Potter RAG system demonstrates solid and realistic performance for a long, narrative, multi-book corpus.
+With a Retrieval Recall@K of 0.90, the Harry Potter RAG system demonstrates solid and realistic performance for a long, narrative, multi-book corpus.
 
 **Key takeaway:**
 
